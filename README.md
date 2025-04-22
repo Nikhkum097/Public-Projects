@@ -1,1 +1,72 @@
-Please watch it
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Happy Anniversary!</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-image: url('https://images.unsplash.com/photo-1525253086316-d0c936c814f8?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      background-repeat: no-repeat;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      backdrop-filter: brightness(0.9);
+    }
+
+    .overlay {
+      background-color: rgba(255, 255, 255, 0.85);
+      border-radius: 20px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+      padding: 2rem;
+      text-align: center;
+      max-width: 650px;
+      margin: 20px;
+    }
+
+    .overlay h1 {
+      color: #c2185b;
+      font-size: 2.8rem;
+      margin-bottom: 1rem;
+    }
+
+    .overlay p {
+      font-size: 1.2rem;
+      line-height: 1.6;
+      color: #4a4a4a;
+    }
+
+    .image {
+      margin-top: 1.5rem;
+    }
+
+    .image img {
+      max-width: 100%;
+      border-radius: 15px;
+      box-shadow: 0 2px 12px rgba(0, 0, 0, 0.2);
+    }
+  </style>
+</head>
+<body>
+  <div class="overlay">
+    <h1>Happy Marriage Anniversary!</h1>
+    <p>
+      Dear Tribhuvan and Priyanka,<br><br>
+      On this special day, I just want to send you a huge bundle of love and happiness! 💐<br>
+      May your love story continue to blossom and inspire those around you. Wishing you and your partner a journey full of laughter, strength, and forever memories. ❤️<br><br>
+      Cheers to your beautiful bond and many more anniversaries ahead!
+    </p>
+    <div class="image">
+      <img src="https://images.unsplash.com/photo-1493728695749-5a3603bd6908?q=80&w=1376&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" alt="Married Couple">
+    </div>
+  </div>
+</body>
+</html>
